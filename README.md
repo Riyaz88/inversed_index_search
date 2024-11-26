@@ -1,4 +1,4 @@
-#inversed_index_search
+INVERSED INDEX SEARCH
 
 This Application creates a database file which contains the index of all words. So this can be termed as Database Creation also. All the files whose index are to be created are selected and input to this function. All the files are parsed and words are separated and indexed. They are arranged in sorted order. For this a sorted Linked List or Hashing is used which will store the words and the related file details. The index thus created is then stored in the file as a database. This file is later used in Querying. While the files are removed or added this index file is updated.
 Once the Indexing is over we have the Querying or Searching. The text to be searched is input which is parsed into words and those words are searched in the index file. To avoid the overhead of reading the file again, the file is converted back to a linked list or hashing program, in which the words are searched. The information about the files which contain the words are collected. The ones with more matches are filtered and produced as the result.
